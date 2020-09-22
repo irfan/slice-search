@@ -2,6 +2,9 @@
 Splits a 2D surface to smaller parts and returns coordinates in flat structure
 
 # Example
+
+You can pass all or some negative depends on the location you want to scan
+```
                         y
                         +
     x1,y1               |
@@ -24,6 +27,7 @@ Splits a 2D surface to smaller parts and returns coordinates in flat structure
                         | -3
                         |
                     -y  + ...
+```
 
 
 ## Another Example
@@ -51,31 +55,6 @@ Splits a 2D surface to smaller parts and returns coordinates in flat structure
                         |
                     -y  + ...
 
-
-
-                                                                                                       
-                                |                                                                      
-            x1,y1               |                                                                      
-              +-----------------------------+                                                          
-              |                 |           |                                                          
-              |                 |           |                                                          
-              |                 |           |                                                          
-              |                 |           |                                                          
-              |                 |           |                                                          
-              |                 |           |                                                          
-              |                 |           |                                                          
---------------|-----------------------------|-------------------                                       
-              |                 |           |                                                          
-              |                 |           |                                                          
-              |                 |           |                                                          
-              |                 |           |                                                          
-              |                 |           |                                                          
-              +-----------------------------+                                                          
-                                |          x2,y2                                                       
-                                |                                                                      
-                                |                                                                      
-                                |                                                                      
-                                |                                                                      
 
 
 
