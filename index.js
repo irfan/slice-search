@@ -132,13 +132,4 @@ GridCoordinates.prototype = {
     }
 }
 
-var a = new GridCoordinates({x1:-20,x2:45,y1:20,y2:-45});
-var b = new GridCoordinates({x1:-8,x2:8,y1:8,y2:-8});
-var c = new GridCoordinates({x1:-6,x2:4,y1:9,y2:-2});
-
-a.print();
-b.print();
-c.print();
-
-
 
