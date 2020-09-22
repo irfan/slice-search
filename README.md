@@ -95,6 +95,7 @@ c.print();
 ```
 
 Output to your terminal:
+```
 [
   { x1: -20, x2: -11, y1: 20, y2: 11 },
   { x1: -11, x2: -2, y1: 20, y2: 11 },
@@ -190,3 +191,4 @@ Output to your terminal:
   { x1: -2, x2: 2, y1: 1, y2: -2 },
   { x1: 2, x2: 4, y1: 1, y2: -2 }
 ]
+```
