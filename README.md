@@ -32,6 +32,7 @@ You can pass all or some negative depends on the location you want to scan
 
 ## Another Example
 
+``
                         y
                         +
                         |
@@ -55,12 +56,10 @@ You can pass all or some negative depends on the location you want to scan
                         |
                     -y  + ...
 
+```
 
 
-
-
-
-## Example 
+## Example Input/Output
 
 Creating objects:
 ```javascript
